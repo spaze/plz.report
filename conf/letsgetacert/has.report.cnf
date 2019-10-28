@@ -3,4 +3,4 @@ PRIVKEY=/etc/nginx/certs/$CN.privkey.pem
 CERT_DIR=/etc/nginx/certs
 SUBJECT="/C=CZ/ST=Prague/L=Prague/O=has.report/emailAddress=$SUBJECT_EMAIL/CN=$CN"
 WEBROOT_DIR=/srv/www/$CN
-DOMAINS="site=has.report,www.has.report,icanhas.report,www.icanhas.report,plz.report,www.plz.report"
+DOMAINS="site=has.report,www.has.report,plz.report,www.plz.report"
